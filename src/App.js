@@ -18,7 +18,7 @@ function App() {
           <p>This is the content of the first article. Add your own text here.</p>
         </article> */}
         <article>    
-        <img src="https://picsum.photos/id/1011/800/450" alt="" />            
+        <img src="https://picsum.photos/id/800/800/450" alt="" />            
         <h2>Article 1</h2>
         <p>This is the content of the first article. Add your own text here.</p> 
         </article>
@@ -26,7 +26,7 @@ function App() {
 
 
         <article>    
-        <img src="https://picsum.photos/id/1011/800/450" alt="" />            
+        <img src="https://picsum.photos/id/1000/800/450" alt="" />            
         <h2>Article 2</h2>
         <p>This is the content of the second article. Add your own text here.</p>
         </article>
@@ -34,23 +34,25 @@ function App() {
         
 
         <article>    
-        <img src="https://picsum.photos/id/1011/800/450" alt="" />            
+        <img src="https://picsum.photos/id/900/800/450" alt="" />            
           <h2>Article 3</h2>
           <p>This is the content of the third article. Add your own text here.</p>
         </article>
       </section>
 
       <aside className="sidebar">
-        <section className="widget">
+        <section className='list'>
+          <div>
           <h2>Categories</h2>
           <ul>
             <li>Category 1</li>
             <li>Category 2</li>
             <li>Category 3</li>
           </ul>
+          </div>
         </section>
 
-        <section className="widget">
+        <section className="list">
           <h2>Tags</h2>
           <ul>
             <li>Tag 1</li>
@@ -60,7 +62,7 @@ function App() {
         </section>
       </aside>
 
-      <footer>
+      <footer className ="footer-overlay">
         <p>&copy; 2023 React Styling Assignment</p>
       </footer>
     </div>
